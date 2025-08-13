@@ -1,0 +1,39 @@
+local Window = OrionLib:MakeWindow({Name = "nocanxi", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+
+local Tab = Window:MakeTab({
+	Name = "bee swm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "alt 1.0 ",
+	Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris12089/atlasbss/main/script.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "find hidestick     ",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/VerbalHubz/Verbal-Hub/refs/heads/main/Bee%20Swarm%20Sim.Lua",true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "histy   ",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Histy"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "macrov3 getkey ok   ",
+	Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bc8c5c45c26f8e4cdb060277b0bbcab7.lua"))()
+end    
+})
+Tab:AddButton({
+   Name = "Kiwi famered ",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/KiwiiHub/KiwiiHub/refs/heads/main/Kiwii-Bss-Beta.lua'))()
+end
+})
