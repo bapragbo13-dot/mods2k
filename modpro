@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/hentaimods/refs/heads/main/zingpro')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh2eqweaws/hentaimods/refs/heads/main/nocanxi')))()
 
 local Window = OrionLib:MakeWindow({Name = "nocanxi", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
